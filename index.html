@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NP3</title>
+    <script src="script.js"></script>
+</head>
+<body>
+<label> City Name:
+    <input type="text" id="cityName">
+</label>
+<label> Street Name:
+    <input type="text" id="streetName">
+</label>
+<input type="button" id="findByCityName" value=">">
+<table id="info">
+    <tr>
+        <th>Широта</th>
+        <th>Довгота</th>
+        <th>Тип</th>
+        <th>Індекс</th>
+        <th>Область</th>
+        <th>Район</th>
+        <th>Ідентифікатор</th>
+    </tr>
+    <tr>
+        <td id="latitude"></td>
+        <td id="longitude"></td>
+        <td id="type"></td>
+        <td id="index"></td>
+        <td id="area"></td>
+        <td id="district"></td>
+        <td id="ref"></td>
+    </tr>
+</table>
+<div id="streets"></div>
+</body>
+</html>
